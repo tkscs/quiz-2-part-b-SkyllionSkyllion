@@ -1,5 +1,5 @@
 def forest():
-    response = input("Would you like to go north (n) or go east (e)")
+    response = input("You are currently in the forest. Would you like to go north (n) or go east (e)")
     if response == "n":
         print("You find a cave with treasure! You win!")
     elif response == "e":
@@ -10,7 +10,7 @@ def forest():
         forest()
 
 def river():
-    response = input("Would you like to go back to the forest (b), or swim across the river (s)")
+    response = input("You are currently at the river. Would you like to go back to the forest (b), or swim across the river (s)")
     if response == "b":
         print("You go back to the forest")
         forest()
