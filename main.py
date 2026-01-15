@@ -1,5 +1,3 @@
-place = "FOREST"
-
 def forest():
     response = input("Would you like to go north (n) or go east (e)")
     if response == "n":
